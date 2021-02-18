@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmilaBus</string>
+    <string name="Pop">Попутки</string>
+    <string name="Set">Налаштування</string>
+    <string name="Roz">Розклад Автобусів</string>
+    <string-array name="Nums">3, 4, 5, 9, 10,
+                              13, 17, 18, 30,
+                              32, 34, 35, 36,
+                              37, 39, 40, 41,
+                              45, 48, 49</string-array>
+</resources>
