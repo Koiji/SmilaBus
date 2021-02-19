@@ -22,4 +22,27 @@
     <string name="infor">Дотримуйтесь карантинних умов під час коронавірусу!</string>
     <string name="_25_30">Проїзд від 25 до 30 грн.</string>
 
+    <string-array name="route">
+        <item>Маршрут №3</item>
+        <item>Маршрут №4</item>
+        <item>Маршрут №5</item>
+        <item>Маршрут №9</item>
+        <item>Маршрут №10</item>
+        <item>Маршрут №13</item>
+        <item>Маршрут №17</item>
+        <item>Маршрут №18</item>
+        <item>Маршрут №30</item>
+        <item>Маршрут №32</item>
+        <item>Маршрут №34</item>
+        <item>Маршрут №35</item>
+        <item>Маршрут №36</item>
+        <item>Маршрут №37</item>
+        <item>Маршрут №39</item>
+        <item>Маршрут №40</item>
+        <item>Маршрут №41</item>
+        <item>Маршрут №45</item>
+        <item>Маршрут №48</item>
+        <item>Маршрут №49</item>
+    </string-array>
+
 </resources>
