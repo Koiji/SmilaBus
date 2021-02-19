@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String[] nums = getResources().getStringArray(R.array.route);
+        /*String[] nums = getResources().getStringArray(R.array.route);
 
         Spinner spinner = (Spinner) findViewById(R.id.busNumber);
         // Создаем адаптер ArrayAdapter с помощью массива строк и стандартной разметки элемета spinner
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner.setAdapter(adapter);
 
         Poputki = (Button) findViewById(R.id.Poputki);
-        Poputki.setOnClickListener(this);
+        Poputki.setOnClickListener(this);*/
     }
 
     @Override
