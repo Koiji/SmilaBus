@@ -37,9 +37,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.Poputki:
+                {
                 Intent intent = new Intent(this, SecondActivity.class);
                 startActivity(intent);
-                break;
+                break;}
+            case R.id.Settings:
+                {
+                Intent settings = new Intent(this, SettingsActivity.class);
+                startActivity(settings);
+                break;}
             default:
                 break;
         }
