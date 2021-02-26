@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,9 +8,11 @@
     tools:context=".SecondActivity">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:ignore="MissingConstraints">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -26,50 +28,128 @@
         layout="@layout/content_second"
 
         android:background="#009688"
-        app:layout_anchor="@+id/smela"
-        app:layout_anchorGravity="center" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:contentDescription="@string/todo"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:layout_anchorGravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/cherkasy"
-        android:layout_width="match_parent"
-        android:layout_height="330dp"
-
-        android:autoLink="web"
-        android:gravity="center_vertical|center_horizontal"
-        android:text="@string/https_t_me_telecar_cherkassy_geo"
-        app:layout_anchor="@+id/smela"
-        app:layout_anchorGravity="center" />
-
-    <TextView
-        android:id="@+id/smela"
-        android:layout_width="match_parent"
-        android:layout_height="158dp"
-        android:autoLink="web"
-        android:background="#FFFFFF"
+        android:id="@+id/warning"
+        android:layout_width="405dp"
+        android:layout_height="97dp"
+        android:background="#FBC02D"
         android:gravity="center"
-        android:text="@string/https_t_me_popytkasmila" />
-
-    <TextView
-        android:id="@+id/infor"
-        android:layout_width="match_parent"
-        android:layout_height="575dp"
-        android:gravity="center"
-        android:text="@string/infor" />
+        android:text="@string/warn"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="69dp" />
 
     <TextView
         android:id="@+id/price"
-        android:layout_width="match_parent"
-        android:layout_height="495dp"
-        android:gravity="center"
-        android:text="@string/_25_30" />
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="469dp"
+        android:background="#FFFFFF"
+        android:text="@string/pricee"
+        android:textColor="#0B120C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/warning"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/smilateg"
+        android:layout_width="366dp"
+        android:layout_height="41dp"
+        android:autoLink="web"
+        android:linksClickable="false"
+        android:text="@string/sstelega"
+        android:textColor="#000000"
+        android:textColorLink="#1976D2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/poputcherkas"
+        android:layout_width="389dp"
+        android:layout_height="40dp"
+        android:autoLink="web"
+        android:text="@string/poputkkicherkas"
+        android:textColor="#000000"
+        android:textColorLink="#1976D2"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <ImageButton
+        android:id="@+id/updown"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/goea"
+        app:srcCompat="@drawable/updown"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/psmila"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:background="#F1F8E9"
+        android:text="@string/pushka"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/cherkasystop"
+        android:layout_width="379dp"
+        android:layout_height="46dp"
+        android:background="#F1F8E9"
+        android:text="@string/zoostop"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/stopcherkasu"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:background="#FBE9E7"
+        android:text="@string/ziSmila"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <TextView
+        android:id="@+id/cherkasystopbs"
+        android:layout_width="386dp"
+        android:layout_height="47dp"
+        android:background="#FBE9E7"
+        android:text="@string/endsmila"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

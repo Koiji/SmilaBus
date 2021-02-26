@@ -1,12 +1,29 @@
 <resources>
     <string name="app_name">SmilaBus</string>
-    <string name="Pop">🚗 Попутки</string>
-    <string name="Set">🔧 Налаштування</string>
-    <string name="Roz">🚌SmilaBus</string>
+    <string name="Pop">🚗Попутки</string>
+    <string name="Set">🔧Налаштування</string>
+    <string name="Roz">SmilaBus</string>
     <string name="title_activity_bus">bus</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Будні</string>
+    <string name="tab_text_2">Вихідні</string>
+    <string name="tab_text_3">Ціна</string>
     <string name="title_activity_second">Попутки</string>
+    <string name="buss30">Станція ім.Т.Шевченка - АС-1</string>
+    <string name="menu1">Головне меню</string>
+    <string name="warn">⚠ Дотримуйтесь карантинних обмежень на маршруті під час коронавірусу. Проїзд в громадському транспорті без масок заборонений!</string>
+    <string name="pricee">💰Ціна: від 30 грн. Дуже рідко 25 грн.</string>
+    <string name="sstelega">🚗Попутка.Сміла:https://t.me/PopytkaSmila</string>
+    <string name="poputkkicherkas">🚐Попутка.Черкаси: https://t.me/telecar_cherkassy_geo</string>
+    <string name="pushka">🚏(Сміла)Початкова точка (Школа №3 , Пушка)</string>
+    <string name="zoostop">🚏(Черкаси)Початкова точка (Черкаський зоопарк)</string>
+    <string name="ziSmila">(зі Сміли) Кінцевий пункт (По вимозі, Черкаський зоопарк)🔚</string>
+    <string name="endsmila">(з Черкас) Кінцевий пункт (По вимозі, центр - МБК)🔚</string>
+
+    <string name="title_activity_buses">BusesActivity</string>
+    <string name="buss">🚍Обрати автобус</string>
+    <string name="title_activity_select">Обрати маршрут</string>
+    <string name="title_activity_settings">Налаштування</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -15,11 +32,23 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="ssmila">Попутка.Сміла</string>
-    <string name="https_t_me_telecar_cherkassy_geo">Попутки.Черкаси: https://t.me/telecar_cherkassy_geo</string>
-    <string name="https_t_me_popytkasmila">Попутка.Сміла: https://t.me/PopytkaSmila</string>
-    <string name="todo">TODO</string>
-    <string name="infor">Дотримуйтесь карантинних умов під час коронавірусу!</string>
-    <string name="_25_30">Проїзд від 25 до 30 грн.</string>
 
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Тема</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Світла/Темна</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="good">Attention</string>
+    <string name="goea">TODO</string>
 </resources>
